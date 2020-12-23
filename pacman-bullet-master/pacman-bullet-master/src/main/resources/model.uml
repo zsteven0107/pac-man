@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>edu.rice.comp504.model</OriginalElement>
+  <nodes>
+    <node x="285.0" y="1420.0">edu.rice.comp504.model.cmd.ICommand</node>
+    <node x="0.0" y="1420.0">edu.rice.comp504.model.DispatchAdapter</node>
+    <node x="282.0" y="992.0">edu.rice.comp504.model.paintobject.Ghost</node>
+    <node x="1496.5" y="824.0">edu.rice.comp504.model.strategy.GhostStrategy</node>
+    <node x="840.0" y="824.0">edu.rice.comp504.model.DispatcherTest</node>
+    <node x="570.0" y="1069.0">edu.rice.comp504.model.paintobject.Bonus</node>
+    <node x="1698.0" y="947.0">edu.rice.comp504.model.strategy.GoHomeStrategy</node>
+    <node x="636.0" y="0.0">edu.rice.comp504.model.response.UpdateResponse</node>
+    <node x="1480.0" y="958.5">edu.rice.comp504.model.strategy.FollowPacmanStrategy</node>
+    <node x="0.0" y="0.0">edu.rice.comp504.model.Game</node>
+    <node x="1295.0" y="947.0">edu.rice.comp504.model.strategy.RandomStrategy</node>
+    <node x="319.0" y="824.0">edu.rice.comp504.model.paintobject.PaintObject</node>
+    <node x="0.0" y="1069.0">edu.rice.comp504.model.paintobject.Pacman</node>
+    <node x="723.0" y="301.0">edu.rice.comp504.model.response.UpdateResponse.UpdateResponseBuilder</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="edu.rice.comp504.model.paintobject.Pacman" target="edu.rice.comp504.model.paintobject.PaintObject">
+      <point x="0.0" y="-114.5" />
+      <point x="131.0" y="967.0" />
+      <point x="351.3333333333333" y="967.0" />
+      <point x="-64.66666666666669" y="59.0" />
+    </edge>
+    <edge source="edu.rice.comp504.model.paintobject.Bonus" target="edu.rice.comp504.model.paintobject.PaintObject">
+      <point x="0.0" y="-114.5" />
+      <point x="682.5" y="967.0" />
+      <point x="480.6666666666667" y="967.0" />
+      <point x="64.66666666666669" y="59.0" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.FollowPacmanStrategy" target="edu.rice.comp504.model.strategy.GhostStrategy">
+      <point x="0.0" y="-48.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.response.UpdateResponse.UpdateResponseBuilder" target="edu.rice.comp504.model.response.UpdateResponse">
+      <point x="0.0" y="-224.0" />
+      <point x="0.0" y="125.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.GoHomeStrategy" target="edu.rice.comp504.model.strategy.GhostStrategy">
+      <point x="0.0" y="-59.5" />
+      <point x="1823.5" y="922.0" />
+      <point x="1634.0" y="922.0" />
+      <point x="55.0" y="36.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.strategy.RandomStrategy" target="edu.rice.comp504.model.strategy.GhostStrategy">
+      <point x="0.0" y="-59.5" />
+      <point x="1377.5" y="922.0" />
+      <point x="1524.0" y="922.0" />
+      <point x="-55.0" y="36.5" />
+    </edge>
+    <edge source="edu.rice.comp504.model.paintobject.Ghost" target="edu.rice.comp504.model.paintobject.PaintObject">
+      <point x="0.0" y="-191.5" />
+      <point x="0.0" y="59.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5862014148318894" x="1369.824592590332" y="524.4384384155273" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
